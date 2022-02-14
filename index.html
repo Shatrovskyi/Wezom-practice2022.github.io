@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Test</title>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,700;1,900&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/jquery.fancybox.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/slick.css">
+</head>
+<body>
+	<header class="header">
+		<div class="wrapper">
+			<div class="header-top">
+			 	<div class="header-logo">
+			 		<a href="#"><img src="img/wezom_logo 2.png" alt=""></a>
+			 	</div>
+			 	<ul class="nav">
+			 		<li class="nav-li"><a href="#">О Компании</a></li>
+			 		<li class="li"><img src="img/Ellipse 32.png" alt=""></li>
+			 		<li class="nav-li"><a href="#">Доставка и оплата</a></li>
+			 		<li class="li"><img src="img/Ellipse 32.png" alt=""></li>
+			 		<li class="nav-li"><a  href="#">Гарантия</a></li>
+			 		<li class="number"><a class="number-link" href="tel:3809817000740">+38 068 000 00 00</a></li>
+			 		<li class="nav-li2"><a href="#">Ua</a></li>
+			 		<li class="li2"><img src="img/Ellipse 32.png" alt=""></li>
+			 		<li class="nav-li2"><a href="#">Ru</a></li>
+			 		<li class="nav-li2"><a class="log-in" href="#">Войти <img src="img/log_in.svg" width="20" height="20" alt=""></a></li>
+			 	</ul>
+			</div>
+			<div class="header-bottom">
+				<div class="header-bottom-left">
+					<button onclick="myFunction()" class="catalog"><img src="img/catalog.svg" width="28" height="23" alt=""><span class="catal">каталог</span><span class="all-categories">Все категории</span></button>
+					<div id="myDropdown" class="dropdown-content">
+    					<a href="#" ><img class="dropdown-img1" src="img/power 1.svg" alt="">Категрия 1 <img class="dropdown-img2" src="img/Path.svg"></a>
+    					<a href="#" ><img class="dropdown-img1" src="img/cartridge.svg" alt="">Категрия 2 <img class="dropdown-img2" src="img/Path.svg"></a>
+    					<a href="#" ><img class="dropdown-img1" src="img/geometry.svg" alt="">Категрия 3 <img class="dropdown-img2" src="img/Path.svg"></a>
+    					<a href="#" ><img class="dropdown-img1" src="img/aktuator.svg" alt="">Категрия 4 <img class="dropdown-img2" src="img/Path.svg"></a>
+    					<a href="#" ><img class="dropdown-img1" src="img/servoprivod.svg" alt="">Категрия 5 <img class="dropdown-img2" src="img/Path.svg"></a>
+    					<a href="#" ><img class="dropdown-img1" src="img/prokladki.svg" alt="">Категрия 6 <img class="dropdown-img2" src="img/Path.svg"></a>
+    					<a href="#" ><img class="dropdown-img1" src="img/zap4asti.svg" alt="">Категрия 7 <img class="dropdown-img2" src="img/Path.svg"></a>
+    					<a href="#" ><img class="dropdown-img1" src="img/aktuator.svg" alt="">Категрия 8 <img class="dropdown-img2" src="img/Path.svg"></a>
+    					<a href="#" ><img class="dropdown-img1" src="img/body-tourbine.svg" alt="">Категрия 9 <img class="dropdown-img2" src="img/Path.svg"></a>
+    					<a href="#" ><img class="dropdown-img1" src="img/Frame 26.svg" alt="">Категрия 10 <img id="drop-img2" src="img/Path.svg"></a>
+  					</div>
+				</div>
+				<div class="header-bottom-center">
+					<input class="searching" type="search" placeholder="Поиск, например “тест”">
+					<i><img src="img/Lupa.svg" width="18" height="18" alt=""></i>
+				</div>
+				<div class="header-bottom-right">
+					<button class="sravneniy">
+						<img src="img/balance.svg" width="30" height="26" alt="">
+					</button>
+					<button class="favorite">
+						<img src="img/favorite.svg" width="30" height="26" alt="">
+					</button>
+					<button onclick="myFunc()" class="shoping-cart">
+						<span>3</span><img src="img/shopping-cart.svg" width="30" height="27.5" alt="">
+					</button>
+					<div id="myDropdown2" class="dropdown-content2">
+						<div class="drop">
+							<span class="drop-cont">В корзине <i>3 товара</i></span>
+							<span class="drop-cont">На сумму <i>30 000 ₴</i></span>
+						</div>
+						<button class='drop-button'>Оформить заказ <img src="img/group.svg" width="30" height="27.5" alt=""></button>
+						<a class="drop-link" href="#">Редактировать заказ</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="form-main">
+		<div class="form_back">
+			<div class="wrapper">
+				<div class="layout">
+					<div class="mic-nav">
+						<p>Test — Каталог — Группа — Тестовый товар для верстки</p>
+					</div>
+				</div>
+
+				<div class="main_product">
+					<div class="photo_prew">
+						<img class="up" src="img/up.png" alt="">
+						<img class="photo_prew-img" src="img/Rectangle14(1).png" alt="">
+						<img class="photo_prew-img" src="img/Rectangle 4.png" alt="">
+						<img class="photo_prew-img" src="img/Rectangle 16.png" alt="">
+						<img class="photo_prew-img" src="img/Rectangle 17.png" alt="">
+						<img class="down" src="img/down.png" alt="">
+					</div>
+
+					<div class="big_photo">
+						<img src="img/Rectangle 14.png" alt="">
+					</div>
+
+					<div class="info-payment">
+						<div class="top">
+							<div class="top-stars">
+								<p class="v-nalichii"><img src="img/check (1) 1.png" alt="">В наличии</p>
+								<span class="stars">
+									<img src="img/3-stars.png" alt="">
+									<img src="img/2-stars.png" alt="">
+						    	</span>
+						    	<p class="num">12</p>
+						    </div>
+						    <p class="articul-num">Артикул:<span>100500</span></p>
+						</div>
+						<div class="control">
+
+							<div class="control-top">
+								<span class="akcia">Акция</span>
+								<span class="akcia-info">До 30 марта скидка — 20% на все турбокомпрессоры<br>бренда TurboParts</span>
+							</div>
+							<div class="control-price">
+								<span class="price">3 799 <span>₴</span></span>
+								<p class="price-sale"><span>4 200 ₴</span></p>
+							</div>
+
+							<div class="buy-favorite">
+								<div class="buy"><button class="buy">В корзину <img src="img/Group (4).png" alt=""></button>
+								</div>
+								<p class="p1"></p>
+								<div class="sravneniy">
+									<button><img src="img/sravnit'.png" alt=""></button>
+								</div>
+								<div class="favorite">
+									<button><img src="img/Group (2).png" alt=""></button>
+								</div>
+								<p class="p2"></p>
+								<div class="buy-one-click">
+									<button><img src="img/Group (3).png" alt=""></button>
+									<p class="buy-one">Купить в <br> 1 клик</p>
+								</div>
+							</div>
+
+							<div class="control-futer">
+								<div class="garant">
+									<p class="terms-p"><img src="img/surface1.png" alt="">Гарантия</p>
+									<img src="img/Path (2).png" alt="">
+								</div>
+								<div class="garant">
+									<p class="terms-p"><img src="img/Group.png" alt="">Условия доставки</p>
+									<img src="img/Path (2).png" alt="">
+								</div>
+								<div class="garant">
+									<p class="terms-p"><img src="img/Group (1).png" alt="">Условия оплаты</p>
+									<img src="img/Path (2).png" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="main">
+		<div class="wrapper">
+			<div class="charact-reviews">
+				<div class="charact">
+					<p class="charact-name">Характеристики <span>Картридж турбины<br>Mercedes E-klasse</span></p>
+
+					<div class="charact-2">
+						<ul class="charact-2-ul">
+							<li class="charact-2-1">Тип <span> </span> <p>Группа 1</p></li>
+							<li class="charact-2-1">Номер <span> </span> <p>B40-2-210</p></li>
+							<li class="charact-2-1">Бренд <span> </span> <p>TurboParts</p></li>
+						</ul>
+					</div>
+					<a class="all-caract" href="#"><span>Все характеристики</span><img src="img/right.png" alt=""></a>
+				</div>
+				<div class="reviews">
+					<div class="review">
+						<p class="review-main">Отзывы покупателей <span>12</span></p>
+						<a class="all-caract" href="#"><span>Все отзывы</span><img src="img/right.png" alt=""></a>
+					</div>
+					<div class="reviews-main">
+						<div class="review-review1">
+							<div class="review-review-name">
+								<p class="review-name">Иванова Карина <span>/  21 мая 2021</span></p>
+								<span class="stars">
+									<img src="img/4 stars.png" alt="">
+									<img src="img/none-star.png" alt="">
+						    	</span>
+							</div>
+							<p class="review-review1-p">
+						    	Покупка этой товара была спонтанной и незапланированной. В течении часа прочитала отзывы и остановилась на этой модельке. Изначально знала, что пластины не сьемные, но плюсов было больше. Спасибо за молниеносную отправку! 2 дня с момента заказа и единственный нюанс-все таки сьемные пластины удобнее, наверное. Но по советам более опытных я ставила пергамент, но мыть все равно сложновато.
+						    </p>
+						</div>
+						<div class="review-review2">
+
+							<div class="review-review-name">
+								<p class="review-name">Рогозин Тимур <span>/ 17 мая 2021</span></p>
+								<span class="stars">
+									<img src="img/2-stars.png" alt="">
+									<img src="img/none-star.png" alt="">
+									<img src="img/none-star.png" alt="">
+									<img src="img/none-star.png" alt="">
+						    	</span>
+							</div>
+							<p class="review-review1-p">
+						    	Покупка этого товара была спонтанной и незапланированной. В течении часа прочитал отзывы и остановился на этой модельке. Спасибо за молниеносную отправку! 
+						    </p>
+						</div>
+
+						<div class="show-more">
+							<button>Показать еще</button>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="call-me-back">
+		<div class="wrapper">
+			<div class="call">
+				<div class="call-header">
+					<h4>Нужна помощь в подборе товара? Мы перезваниваем !</h4>
+				</div>
+				<div class="input-number">
+					<form action="">
+						<input type="tel" id="tel" name="tel" placeholder="+38 (0XX) XX - XX - XXX">
+						<button>Отправить</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="wrapper-footer">
+			<div class="footer-inside">
+				<p>2021 © Wezom Practice</p>
+				<p>Тестовое \\ Wezom</p>
+			</div>
+		</div>
+	</footer>
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  	<script src="js/slick.min.js"></script>
+  	<script src="js/jquery.fancybox.min.js"></script>
+	<script src="js/maskinput.js"></script>
+	<script src="js/script.js"></script>
+</body>
